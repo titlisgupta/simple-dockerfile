@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                docker build .
-                    
+                docker build .       
             }
         }
     }
